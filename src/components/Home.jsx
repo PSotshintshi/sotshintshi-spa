@@ -1,11 +1,9 @@
- import React from "react";
-
+import React from "react";
 function Home() {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100 p-6">
-      <h1 className="text-4xl md:text-6xl font-bold text-center text-gray-800">
-        Your Escape to Peace & Wellness
-      </h1>
+    <div className="text-center">
+      <h1 className="text-4xl font-bold mb-4">Welcome to Sotshintshi Spa & Beauty</h1>
+      <p className="text-lg text-gray-700">Relax, rejuvenate, and indulge in our luxurious treatments.</p>
     </div>
   );
 }
