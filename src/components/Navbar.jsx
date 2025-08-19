@@ -13,5 +13,5 @@ function Navbar() {
   );
 }
 
-export default Navbar;  // 👈 make sure this line exists
+export default Navbar; 
 
