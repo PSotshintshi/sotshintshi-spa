@@ -6,6 +6,7 @@ import Treatments from "./components/Treatments";
 import Packages from "./components/Packages";
 import Bookings from "./components/Bookings";
 import ContactUs from "./components/ContactUs";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
         <Route path="/packages" element={<Packages />} />
         <Route path="/bookings" element={<Bookings />} />
          <Route path="/contactUs" element={<ContactUs />} />
-        
+       
       </Routes>
     </>
   );

@@ -1,13 +1,63 @@
+
 import React from "react";
-function ContactUs() {
+export default function Contact() {
   return (
-    <div className="max-w-md mx-auto p-6 bg-white shadow-xl rounded-lg text-center">
-      <h2 className="text-2xl font-bold mb-4">Contact Us</h2>
-      <p className="text-gray-700 mb-2">Email: info@sotshintshi-spa.com</p>
-      <p className="text-gray-700 mb-2">Phone: +27 123 456 789</p>
-      <p className="text-gray-700">Address: 123 Wellness St, Spa City</p>
+    <div className="min-h-screen bg-gradient-to-b from-pink-50 to-white py-12 px-6 flex items-center justify-center">
+      <div className="w-full max-w-3xl bg-white p-8 rounded-2xl shadow-lg">
+        <h1 className="text-3xl md:text-4xl font-bold text-center mb-8 text-gray-800">
+          Contact Us
+        </h1>
+        <p className="text-center text-gray-600 mb-6">
+          Have questions or want to book your spa experience? Fill out the form
+          below and we’ll get back to you.
+        </p>
+
+        {/* Contact Form */}
+        <form className="flex flex-col gap-4">
+          <label htmlFor="name" className="text-gray-700 font-semibold mb-1">Name:</label>
+            <input
+            id="name"
+              type="text"
+              placeholder="Your Name"
+              className="block w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400"
+              required
+            />
+              
+      <div className="w-full">
+      <label htmlFor="email" className="text-gray-700 font-semibold mb-1">Email Address:</label>
+            <input
+              type="email"
+              placeholder="Your Email"
+              className="block w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400"
+              required
+            />
+            </div>
+
+      <div className="w-full">
+      <label htmlFor="message" className="text-gray-700 font-semibold mb-1">Your Message</label>
+            <textarea
+              placeholder="Your Message"
+              rows="5"
+              className="block w-full px-4 py-3 border rounded-lg focus:outline-none focus:ring-2 focus:ring-pink-400"
+              required
+            ></textarea>
+          </div>
+
+          <button
+            type="submit"
+            className="w-full py-3 bg-pink-500 text-white font-semibold rounded-lg hover:bg-pink-600 transition duration-300"
+          >
+            Send Message
+          </button>
+        </form>
+
+        {/* Extra Contact Info */}
+        <div className="mt-8 text-center text-gray-700">
+          <p className="mb-2">📍 123 Spa Street,Johannesburg, South Africa</p>
+          <p className="mb-2">📞 +27 123 456 7890</p>
+          <p>✉️ info@sotshintshispa.com</p>
+        </div>
+      </div>
     </div>
   );
 }
-
-export default ContactUs;
