@@ -1,34 +1,34 @@
-// src/pages/Packages.jsx
+// Packages.jsx
 import React from "react";
 
 const packages = [
   {
     title: "Relaxation Escape",
     duration: "60 min",
-    price: "R650",
+    price: "R600",
     description:
       "A calming full-body massage to ease tension and restore inner balance.",
   },
   {
     title: "Glow Facial Package",
     duration: "45 min",
-    price: "R550",
+    price: "R500",
     description:
       "Deep cleansing, hydration, and skin rejuvenation for a radiant glow.",
   },
   {
     title: "Luxury Indulgence",
     duration: "90 min",
-    price: "R950",
+    price: "R900",
     description:
       "Includes a full-body massage, facial, and aromatherapy for ultimate relaxation.",
   },
   {
     title: "Couples Retreat",
     duration: "120 min",
-    price: "R1,800",
+    price: "R1,600",
     description:
-      "Share a blissful spa journey together with massages and facials side by side.",
+      "Share a blissful spa journey together with massages and facials side by side with you partner.",
   },
 ];
 

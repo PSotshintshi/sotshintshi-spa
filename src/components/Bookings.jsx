@@ -56,7 +56,7 @@ function Bookings() {
       
       <form onSubmit={handleSubmit} className="space-y-4">
         <div className="flex flex-col">
-          <label htmlFor="name" className="text-gray-700 font-semibold mb-1">Full Name</label>
+          <label htmlFor="name" className="text-gray-700 font-semibold mb-1">Full Name:</label>
           <input
             id="name"
             type="text"

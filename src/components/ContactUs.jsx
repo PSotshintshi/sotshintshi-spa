@@ -51,10 +51,9 @@ export default function Contact() {
           </button>
         </form>
 
-        {/* Extra Contact Info */}
         <div className="mt-8 text-center text-gray-700">
-          <p className="mb-2">📍 123 Spa Street,Johannesburg, South Africa</p>
-          <p className="mb-2">📞 +27 123 456 7890</p>
+          <p className="mb-2">📍 13 Spa Street,Johannesburg, South Africa</p>
+          <p className="mb-2">📞 +27 456 456 7890</p>
           <p>✉️ info@sotshintshispa.com</p>
         </div>
       </div>
