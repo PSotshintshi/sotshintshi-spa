@@ -1,7 +1,7 @@
 # 🌸 Sotshintshi Spa Website
 Sotshintshi Spa Website - README
 
-A modern and responsive spa and beauty website built with React and Tailwind CSS. This project showcases treatments, spa packages, and services with a clean design optimized for both desktop and mobile devices.
+A responsive spa and beauty website built with React and Tailwind CSS. This website  is designed for a Spa, it has a Home tab where there is an overview of the Spa, Treatment tab that shows all the treatments offered, spa packages where a customer can select their desired packages, Booking form to book a treatment, and contacts. The social media icons to connect with the Spa.
 
 ## 🚀 Features
 - 🏡 **Home Page** – Overview of the spa and highlights  
