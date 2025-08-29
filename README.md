@@ -20,7 +20,6 @@ A modern and responsive spa and beauty website built with React and Tailwind CSS
 - **Routing:** React Router DOM  
 - **Styling:** Tailwind CSS  
 - **Version Control:** Git & GitHub  
-•	Frontend: React, React Router
 •	Styling: Tailwind CSS
 •	Icons: Lucide React
 ---
