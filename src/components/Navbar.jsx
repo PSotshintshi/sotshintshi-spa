@@ -3,11 +3,11 @@ import { Link } from "react-router-dom";
 
 function Navbar() {
   return (
-    <nav className="bg-pink-600 shadow">
+    <nav className=" bg-pink-600 shadow">
       <div className="container mx-auto px-6 py-12 flex justify-between items-center">
         
         <div className="flex items-center">
-          <span className="text-white font-bold justify-self-start text-2xl">Sotshintshi Spa & Beauty</span>
+          <span className="text-emerald-700 font-bold justify-self-start text-2xl">Sotshintshi Spa</span>
         </div>
 
         {/* Navigation links */}

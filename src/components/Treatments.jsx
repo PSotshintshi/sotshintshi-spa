@@ -10,7 +10,7 @@ function Treatments() {
        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-bold text-emerald-700 mb-8">
         Our Treatments
        </h1> 
-      <h2 className="text-2xl sm:text-xl md:text-2xl lg:text-2xl font-semibold text-teal-600 mb-6">Discover the Art of Self-Care
+      <h2 className="text-2xl sm:text-xl md:text-xl lg:text-xl font-semibold text-teal-600 mb-6">Discover the Art of Self-Care
         Whether you’re here to unwind, refresh, or indulge, our professional team ensures a personalized experience tailored just for you. Step into a world of tranquility and let us pamper you from head to toe.
       </h2>
      

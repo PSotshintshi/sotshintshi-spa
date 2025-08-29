@@ -11,17 +11,16 @@ import Footer from "./components/Footer";
 export default function App() {
   return (
     <Router>
+      
       <div className="flex flex-col min-h-screen">
         <Navbar />
-
-        {/* Main content area */}
         <main className="flex-grow">
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/treatments" element={<Treatments />} />
             <Route path="/packages" element={<Packages />} />
             <Route path="/bookings" element={<Bookings />} />
-            <Route path="/contact" element={<ContactUs />} />
+            <Route path="/contactus" element={<ContactUs />} />
           </Routes>
         </main>
         <Footer />

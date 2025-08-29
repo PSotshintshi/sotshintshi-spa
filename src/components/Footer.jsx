@@ -1,17 +1,16 @@
 import React from "react";
 import { FaFacebookF, FaInstagram, FaTwitter } from "react-icons/fa";
+import { Menu, X } from "lucide-react";
 
 function Footer() {
   return (
     <footer className="bg-gradient-to-r from-gray-900 to-gray-800 text-white py-6">
       <div className="max-w-7xl mx-auto px-6 lg:px-0 flex flex-col md:flex-row items-center md:justify-between gap-4">
         
-        {/* Branding on the left */}
-        <div className="text-2xl font-bold text-start md:text-left">
-          Sotshintshi Spa & Beauty
+          <div className="text-xl font-bold text-emerald-700">
+          Sotshintshi Spa
         </div>
 
-        {/* Social icons on the right */}
         <div className="flex space-x-4 justify-center md:justify-end mt-8">
           <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer"
              className="bg-gray-700 p-3 rounded-full hover:bg-red-500 transition-colors">
@@ -28,7 +27,6 @@ function Footer() {
         </div>
       </div>
 
-      {/* Copyright centered at the bottom */}
       <div className="text-gray-300 text-center mt-4">
         &copy; 2025 Sotshintshi Spa. All Rights Reserved.
       </div>

@@ -4,6 +4,7 @@ function Bookings() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [guests, setGuests] = useState(1);
+  const [packages, setPackage] = useState(1);
   const [treatments, setTreatments] = useState([]);
   const [date, setDate] = useState("");
   const [comments, setComments] = useState("");
@@ -33,11 +34,11 @@ function Bookings() {
     console.log(message);
     console.log("Additional Comments:", comments);
     
-    // Show the popup and then reset the form
     setShowPopup(true);
     setName("");
     setEmail("");
     setGuests(1);
+    setPackage(1)
     setTreatments([]);
     setDate("");
     setComments("");
@@ -48,9 +49,9 @@ function Bookings() {
   };
 
   return (
-    <div className="max-w-md mx-auto p-6 bg-white shadow-xl rounded-lg relative">
+    <div className="max-w-2xl mx-auto p-8 bg-white shadow-xl rounded-lg relative">
       <h2 className="text-2xl font-bold mb-4 text-center">Book a Treatment</h2>
-      <p className="text-sm text-gray-600 mb-4">
+      <p className="text-xl text-center font-semibold text-gray-600 mb-4">
         The booking will only be confirmed once a spa representative has contacted you.
       </p>
       
@@ -89,6 +90,20 @@ function Bookings() {
             value={guests}
             onChange={(e) => setGuests(e.target.value)}
             min="1"
+            max="10"
+            required
+            className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
+          />
+        </div>
+         <div className="flex flex-col">
+          <label htmlFor="package" className="text-gray-700 font-semibold mb-1">Select the Package</label>
+          <input
+            id="package"
+            type="number"
+            value={packages}
+            onChange={(e) => setPackage(e.target.value)}
+            min="0"
+            max="5"
             required
             className="w-full px-3 py-2 border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-purple-500"
           />
